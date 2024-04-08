@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="contenedor">
+            <header class="superior">
+                <div class="logo">
+                    <img src="images/logo.png" alt=""/>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li>Quienes somos</li>
+                        <li>Servicio</li>
+                        
+                    </ul>   
+                </nav>
+            </header>
+            <section>
+                <h1 class="titulo">Formulario de Contacto</h1>
+                <div class="formulario">
+                    <form>
+                    <label>Nombre</label>
+                    <input type="text" name="nombrecampo">
+                    <br/> 
+                    <label>Apellido Paterno</label>
+                    <input type="text" name="apellidopaterno">
+                    <br/>
+                    <label>Apellido Materno</label>
+                    <input type="text" name="apellidomaterno">
+                    <br/>
+                    <div>
+                        <input type="radio" id="femenino" name="genero" value="F">
+                        <label for="femenino">SEXO FEMENINO</label>
+                        <br/>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="masculino" name="genero" value="M">
+                        <label for="masculino">SEXO MASCULINO</label>
+                        <br/> 
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="otro" name="genero" value="0">
+                        <label for="otro">OTRO</label>
+                        <br/>  
+                    </div>
+                    <br/>
+
+                    <label for="selec">NACIONALIDAD</label>
+                    <select name="selec" id="selec">
+                        <option value="Chilena">Chilena</option>
+                        <option value="Mexicana">Mexicana</option>
+                        <option value="Colombiana">Colombiana</option>
+                    </select>
+                    <br/>
+                    <button type="submit">Enviar</button>
+                </form>
+                    
+                </div>
+                
+            </section>
+            <footer class="pie">
+                <div class="numero">
+                    <img src="images/logo.png" alt=""/>
+                    <p>Estamos Ubicados en Chanquico Sur S/N - San Javier</p>
+                    <p>Llámanos al +569 12312345</p>
+                </div>
+                <div class="rrss">
+                    <p>Síguenos en nuestras redes sociales</p>
+                    <div>
+                        <img src="images/insta.png" alt="instagram"/>
+                        <img src="images/twt.png" alt="twitter"/>
+                        <img src="images/youtube.png" alt="youtube"/>  
+                    </div>
+                    
+                </div>
+            </footer>
+        </div>   
+    </body>
+</html>
